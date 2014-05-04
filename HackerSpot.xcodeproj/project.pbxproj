@@ -7,13 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A2DC7BC18D637890076C0A6 /* Location+HackerSpotResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2DC7BB18D637890076C0A6 /* Location+HackerSpotResource.m */; };
+		0A2DC7BF18D639130076C0A6 /* NSManagedObject+HackerSpotResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2DC7BE18D639130076C0A6 /* NSManagedObject+HackerSpotResource.m */; };
+		0A2DC7C218D63E200076C0A6 /* Stats.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2DC7C118D63E200076C0A6 /* Stats.m */; };
+		0A2DC7C518D63E210076C0A6 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2DC7C418D63E210076C0A6 /* Location.m */; };
+		0A2DC7CB18D63E210076C0A6 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2DC7CA18D63E210076C0A6 /* Contact.m */; };
+		0A5A773E1915A64800F3CCC4 /* HSWorkerOperationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5A773D1915A64800F3CCC4 /* HSWorkerOperationQueue.m */; };
+		0A5A77431915A74200F3CCC4 /* HSFoursquareWorkerOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5A77421915A74200F3CCC4 /* HSFoursquareWorkerOperation.m */; };
+		0A5A77461915AF5000F3CCC4 /* HSStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5A77451915AF5000F3CCC4 /* HSStore.m */; };
+		0A5A77491915B5D900F3CCC4 /* HSWorkerOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5A77481915B5D900F3CCC4 /* HSWorkerOperation.m */; };
+		0A5A774C1915BB2400F3CCC4 /* HSWorkerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5A774B1915BB2400F3CCC4 /* HSWorkerController.m */; };
+		0A61EE2918D67FC500A0A044 /* HSContactWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A61EE2818D67FC500A0A044 /* HSContactWorker.m */; };
+		0A61EE2C18D67FE000A0A044 /* HSLocationWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A61EE2B18D67FE000A0A044 /* HSLocationWorker.m */; };
+		0A61EE2F18D67FE900A0A044 /* HSStatsWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A61EE2E18D67FE900A0A044 /* HSStatsWorker.m */; };
+		0A61EE3218D68C5700A0A044 /* Venue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A61EE3118D68C5700A0A044 /* Venue.m */; };
+		0AB82F19190DFB3900537B12 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB82F18190DFB3900537B12 /* Parse.framework */; };
+		0AB82F1B190DFB4500537B12 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB82F1A190DFB4500537B12 /* AudioToolbox.framework */; };
+		0AB82F1D190DFB4D00537B12 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB82F1C190DFB4D00537B12 /* CFNetwork.framework */; };
+		0AB82F1F190DFB6D00537B12 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB82F1E190DFB6D00537B12 /* libz.dylib */; };
+		0AB82F21190DFB7600537B12 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB82F20190DFB7600537B12 /* MobileCoreServices.framework */; };
+		0AB82F23190DFB7D00537B12 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB82F22190DFB7D00537B12 /* QuartzCore.framework */; };
+		0AB82F25190DFB8500537B12 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB82F24190DFB8500537B12 /* Security.framework */; };
+		0AB82F27190DFB8F00537B12 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB82F26190DFB8E00537B12 /* StoreKit.framework */; };
+		0AB82F29190DFB9A00537B12 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB82F28190DFB9A00537B12 /* SystemConfiguration.framework */; };
+		0AB82F2D190DFBE100537B12 /* HSParseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB82F2C190DFBE100537B12 /* HSParseController.m */; };
 		0AF8A7CB18D6326F000A3D80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AF8A7CA18D6326F000A3D80 /* Foundation.framework */; };
 		0AF8A7CD18D6326F000A3D80 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AF8A7CC18D6326F000A3D80 /* CoreGraphics.framework */; };
 		0AF8A7CF18D6326F000A3D80 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AF8A7CE18D6326F000A3D80 /* UIKit.framework */; };
 		0AF8A7D118D6326F000A3D80 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AF8A7D018D6326F000A3D80 /* CoreData.framework */; };
 		0AF8A7D718D6326F000A3D80 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0AF8A7D518D6326F000A3D80 /* InfoPlist.strings */; };
 		0AF8A7D918D6326F000A3D80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF8A7D818D6326F000A3D80 /* main.m */; };
-		0AF8A7DD18D6326F000A3D80 /* HSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF8A7DC18D6326F000A3D80 /* HSAppDelegate.m */; };
+		0AF8A7DD18D6326F000A3D80 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF8A7DC18D6326F000A3D80 /* AppDelegate.m */; };
 		0AF8A7E018D6326F000A3D80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AF8A7DE18D6326F000A3D80 /* Main.storyboard */; };
 		0AF8A7E318D63270000A3D80 /* HackerSpot.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0AF8A7E118D63270000A3D80 /* HackerSpot.xcdatamodeld */; };
 		0AF8A7E618D63270000A3D80 /* HSMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF8A7E518D63270000A3D80 /* HSMasterViewController.m */; };
@@ -25,6 +49,13 @@
 		0AF8A7F518D63270000A3D80 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AF8A7D018D6326F000A3D80 /* CoreData.framework */; };
 		0AF8A7FD18D63270000A3D80 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0AF8A7FB18D63270000A3D80 /* InfoPlist.strings */; };
 		0AF8A7FF18D63270000A3D80 /* HackerSpotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF8A7FE18D63270000A3D80 /* HackerSpotTests.m */; };
+		0AF8A83418D63746000A3D80 /* Venue+HackerSpotResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF8A83318D63745000A3D80 /* Venue+HackerSpotResource.m */; };
+		0AF8A83718D6375B000A3D80 /* Stats+HackerSpotResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF8A83618D6375B000A3D80 /* Stats+HackerSpotResource.m */; };
+		0AF8A83A18D63767000A3D80 /* Contact+HackerSpotResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF8A83918D63767000A3D80 /* Contact+HackerSpotResource.m */; };
+		0AF9593A18D671B200B705EC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AF9593918D671B200B705EC /* MapKit.framework */; };
+		0AF9593C18D671B800B705EC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AF9593B18D671B800B705EC /* CoreLocation.framework */; };
+		0AF9593F18D67BEA00B705EC /* HSFoursquareController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF9593E18D67BEA00B705EC /* HSFoursquareController.m */; };
+		0AF9594218D67C8E00B705EC /* HSVenueWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF9594118D67C8E00B705EC /* HSVenueWorker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +69,45 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A2DC7BA18D637890076C0A6 /* Location+HackerSpotResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Location+HackerSpotResource.h"; sourceTree = "<group>"; };
+		0A2DC7BB18D637890076C0A6 /* Location+HackerSpotResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Location+HackerSpotResource.m"; sourceTree = "<group>"; };
+		0A2DC7BD18D639130076C0A6 /* NSManagedObject+HackerSpotResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+HackerSpotResource.h"; sourceTree = "<group>"; };
+		0A2DC7BE18D639130076C0A6 /* NSManagedObject+HackerSpotResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+HackerSpotResource.m"; sourceTree = "<group>"; };
+		0A2DC7C018D63E200076C0A6 /* Stats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stats.h; sourceTree = "<group>"; };
+		0A2DC7C118D63E200076C0A6 /* Stats.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stats.m; sourceTree = "<group>"; };
+		0A2DC7C318D63E210076C0A6 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		0A2DC7C418D63E210076C0A6 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		0A2DC7C918D63E210076C0A6 /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		0A2DC7CA18D63E210076C0A6 /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		0A5A773C1915A64800F3CCC4 /* HSWorkerOperationQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSWorkerOperationQueue.h; sourceTree = "<group>"; };
+		0A5A773D1915A64800F3CCC4 /* HSWorkerOperationQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSWorkerOperationQueue.m; sourceTree = "<group>"; };
+		0A5A77411915A74200F3CCC4 /* HSFoursquareWorkerOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSFoursquareWorkerOperation.h; sourceTree = "<group>"; };
+		0A5A77421915A74200F3CCC4 /* HSFoursquareWorkerOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSFoursquareWorkerOperation.m; sourceTree = "<group>"; };
+		0A5A77441915AF5000F3CCC4 /* HSStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSStore.h; sourceTree = "<group>"; };
+		0A5A77451915AF5000F3CCC4 /* HSStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSStore.m; sourceTree = "<group>"; };
+		0A5A77471915B5D900F3CCC4 /* HSWorkerOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSWorkerOperation.h; sourceTree = "<group>"; };
+		0A5A77481915B5D900F3CCC4 /* HSWorkerOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSWorkerOperation.m; sourceTree = "<group>"; };
+		0A5A774A1915BB2400F3CCC4 /* HSWorkerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSWorkerController.h; sourceTree = "<group>"; };
+		0A5A774B1915BB2400F3CCC4 /* HSWorkerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSWorkerController.m; sourceTree = "<group>"; };
+		0A61EE2718D67FC500A0A044 /* HSContactWorker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSContactWorker.h; sourceTree = "<group>"; };
+		0A61EE2818D67FC500A0A044 /* HSContactWorker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSContactWorker.m; sourceTree = "<group>"; };
+		0A61EE2A18D67FE000A0A044 /* HSLocationWorker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSLocationWorker.h; sourceTree = "<group>"; };
+		0A61EE2B18D67FE000A0A044 /* HSLocationWorker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSLocationWorker.m; sourceTree = "<group>"; };
+		0A61EE2D18D67FE900A0A044 /* HSStatsWorker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSStatsWorker.h; sourceTree = "<group>"; };
+		0A61EE2E18D67FE900A0A044 /* HSStatsWorker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSStatsWorker.m; sourceTree = "<group>"; };
+		0A61EE3018D68C5700A0A044 /* Venue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Venue.h; sourceTree = "<group>"; };
+		0A61EE3118D68C5700A0A044 /* Venue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Venue.m; sourceTree = "<group>"; };
+		0AB82F18190DFB3900537B12 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		0AB82F1A190DFB4500537B12 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		0AB82F1C190DFB4D00537B12 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		0AB82F1E190DFB6D00537B12 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		0AB82F20190DFB7600537B12 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		0AB82F22190DFB7D00537B12 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0AB82F24190DFB8500537B12 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		0AB82F26190DFB8E00537B12 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		0AB82F28190DFB9A00537B12 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0AB82F2B190DFBE100537B12 /* HSParseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSParseController.h; sourceTree = "<group>"; };
+		0AB82F2C190DFBE100537B12 /* HSParseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSParseController.m; sourceTree = "<group>"; };
 		0AF8A7C718D6326F000A3D80 /* HackerSpot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackerSpot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AF8A7CA18D6326F000A3D80 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0AF8A7CC18D6326F000A3D80 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -47,8 +117,8 @@
 		0AF8A7D618D6326F000A3D80 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0AF8A7D818D6326F000A3D80 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0AF8A7DA18D6326F000A3D80 /* HackerSpot-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HackerSpot-Prefix.pch"; sourceTree = "<group>"; };
-		0AF8A7DB18D6326F000A3D80 /* HSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSAppDelegate.h; sourceTree = "<group>"; };
-		0AF8A7DC18D6326F000A3D80 /* HSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSAppDelegate.m; sourceTree = "<group>"; };
+		0AF8A7DB18D6326F000A3D80 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0AF8A7DC18D6326F000A3D80 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0AF8A7DF18D6326F000A3D80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0AF8A7E218D63270000A3D80 /* HackerSpot.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HackerSpot.xcdatamodel; sourceTree = "<group>"; };
 		0AF8A7E418D63270000A3D80 /* HSMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSMasterViewController.h; sourceTree = "<group>"; };
@@ -61,6 +131,18 @@
 		0AF8A7FA18D63270000A3D80 /* HackerSpotTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HackerSpotTests-Info.plist"; sourceTree = "<group>"; };
 		0AF8A7FC18D63270000A3D80 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0AF8A7FE18D63270000A3D80 /* HackerSpotTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HackerSpotTests.m; sourceTree = "<group>"; };
+		0AF8A83218D63745000A3D80 /* Venue+HackerSpotResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Venue+HackerSpotResource.h"; path = "../Venue+HackerSpotResource.h"; sourceTree = "<group>"; };
+		0AF8A83318D63745000A3D80 /* Venue+HackerSpotResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Venue+HackerSpotResource.m"; path = "../Venue+HackerSpotResource.m"; sourceTree = "<group>"; };
+		0AF8A83518D6375B000A3D80 /* Stats+HackerSpotResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Stats+HackerSpotResource.h"; sourceTree = "<group>"; };
+		0AF8A83618D6375B000A3D80 /* Stats+HackerSpotResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Stats+HackerSpotResource.m"; sourceTree = "<group>"; };
+		0AF8A83818D63767000A3D80 /* Contact+HackerSpotResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Contact+HackerSpotResource.h"; sourceTree = "<group>"; };
+		0AF8A83918D63767000A3D80 /* Contact+HackerSpotResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Contact+HackerSpotResource.m"; sourceTree = "<group>"; };
+		0AF9593918D671B200B705EC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		0AF9593B18D671B800B705EC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		0AF9593D18D67BEA00B705EC /* HSFoursquareController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSFoursquareController.h; sourceTree = "<group>"; };
+		0AF9593E18D67BEA00B705EC /* HSFoursquareController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSFoursquareController.m; sourceTree = "<group>"; };
+		0AF9594018D67C8E00B705EC /* HSVenueWorker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSVenueWorker.h; sourceTree = "<group>"; };
+		0AF9594118D67C8E00B705EC /* HSVenueWorker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSVenueWorker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +150,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AB82F29190DFB9A00537B12 /* SystemConfiguration.framework in Frameworks */,
+				0AB82F27190DFB8F00537B12 /* StoreKit.framework in Frameworks */,
+				0AB82F25190DFB8500537B12 /* Security.framework in Frameworks */,
+				0AB82F23190DFB7D00537B12 /* QuartzCore.framework in Frameworks */,
+				0AB82F21190DFB7600537B12 /* MobileCoreServices.framework in Frameworks */,
+				0AB82F1F190DFB6D00537B12 /* libz.dylib in Frameworks */,
+				0AF9593C18D671B800B705EC /* CoreLocation.framework in Frameworks */,
 				0AF8A7CD18D6326F000A3D80 /* CoreGraphics.framework in Frameworks */,
+				0AB82F1D190DFB4D00537B12 /* CFNetwork.framework in Frameworks */,
+				0AB82F1B190DFB4500537B12 /* AudioToolbox.framework in Frameworks */,
+				0AF9593A18D671B200B705EC /* MapKit.framework in Frameworks */,
+				0AB82F19190DFB3900537B12 /* Parse.framework in Frameworks */,
 				0AF8A7D118D6326F000A3D80 /* CoreData.framework in Frameworks */,
 				0AF8A7CF18D6326F000A3D80 /* UIKit.framework in Frameworks */,
 				0AF8A7CB18D6326F000A3D80 /* Foundation.framework in Frameworks */,
@@ -89,6 +182,90 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A5A773B1915A59600F3CCC4 /* Concurrency */ = {
+			isa = PBXGroup;
+			children = (
+				0A5A774D1915C00F00F3CCC4 /* Controller */,
+				0A5A77401915A72D00F3CCC4 /* Operations */,
+				0A5A773F1915A71A00F3CCC4 /* Queues */,
+				0A5A77441915AF5000F3CCC4 /* HSStore.h */,
+				0A5A77451915AF5000F3CCC4 /* HSStore.m */,
+			);
+			name = Concurrency;
+			sourceTree = "<group>";
+		};
+		0A5A773F1915A71A00F3CCC4 /* Queues */ = {
+			isa = PBXGroup;
+			children = (
+				0A5A773C1915A64800F3CCC4 /* HSWorkerOperationQueue.h */,
+				0A5A773D1915A64800F3CCC4 /* HSWorkerOperationQueue.m */,
+			);
+			name = Queues;
+			sourceTree = "<group>";
+		};
+		0A5A77401915A72D00F3CCC4 /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				0A5A774F1915C04400F3CCC4 /* Soldier */,
+				0A5A774E1915C03200F3CCC4 /* Master */,
+			);
+			name = Operations;
+			sourceTree = "<group>";
+		};
+		0A5A774D1915C00F00F3CCC4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0A5A774A1915BB2400F3CCC4 /* HSWorkerController.h */,
+				0A5A774B1915BB2400F3CCC4 /* HSWorkerController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		0A5A774E1915C03200F3CCC4 /* Master */ = {
+			isa = PBXGroup;
+			children = (
+				0A5A77471915B5D900F3CCC4 /* HSWorkerOperation.h */,
+				0A5A77481915B5D900F3CCC4 /* HSWorkerOperation.m */,
+			);
+			name = Master;
+			sourceTree = "<group>";
+		};
+		0A5A774F1915C04400F3CCC4 /* Soldier */ = {
+			isa = PBXGroup;
+			children = (
+				0A5A77411915A74200F3CCC4 /* HSFoursquareWorkerOperation.h */,
+				0A5A77421915A74200F3CCC4 /* HSFoursquareWorkerOperation.m */,
+			);
+			name = Soldier;
+			sourceTree = "<group>";
+		};
+		0AB82F2A190DFBD100537B12 /* ParseController */ = {
+			isa = PBXGroup;
+			children = (
+				0AB82F2B190DFBE100537B12 /* HSParseController.h */,
+				0AB82F2C190DFBE100537B12 /* HSParseController.m */,
+			);
+			name = ParseController;
+			sourceTree = "<group>";
+		};
+		0AB82F2E190E196A00537B12 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				0AB82F2F190E197500537B12 /* Foursquare */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		0AB82F2F190E197500537B12 /* Foursquare */ = {
+			isa = PBXGroup;
+			children = (
+				0AB82F2A190DFBD100537B12 /* ParseController */,
+				0AF9593E18D67BEA00B705EC /* HSFoursquareController.m */,
+				0AF9593D18D67BEA00B705EC /* HSFoursquareController.h */,
+			);
+			name = Foursquare;
+			sourceTree = "<group>";
+		};
 		0AF8A7BE18D6326F000A3D80 = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +288,17 @@
 		0AF8A7C918D6326F000A3D80 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0AB82F28190DFB9A00537B12 /* SystemConfiguration.framework */,
+				0AB82F26190DFB8E00537B12 /* StoreKit.framework */,
+				0AB82F24190DFB8500537B12 /* Security.framework */,
+				0AB82F22190DFB7D00537B12 /* QuartzCore.framework */,
+				0AB82F20190DFB7600537B12 /* MobileCoreServices.framework */,
+				0AB82F1E190DFB6D00537B12 /* libz.dylib */,
+				0AB82F1C190DFB4D00537B12 /* CFNetwork.framework */,
+				0AB82F1A190DFB4500537B12 /* AudioToolbox.framework */,
+				0AB82F18190DFB3900537B12 /* Parse.framework */,
+				0AF9593B18D671B800B705EC /* CoreLocation.framework */,
+				0AF9593918D671B200B705EC /* MapKit.framework */,
 				0AF8A7CA18D6326F000A3D80 /* Foundation.framework */,
 				0AF8A7CC18D6326F000A3D80 /* CoreGraphics.framework */,
 				0AF8A7CE18D6326F000A3D80 /* UIKit.framework */,
@@ -123,15 +311,16 @@
 		0AF8A7D218D6326F000A3D80 /* HackerSpot */ = {
 			isa = PBXGroup;
 			children = (
-				0AF8A7DB18D6326F000A3D80 /* HSAppDelegate.h */,
-				0AF8A7DC18D6326F000A3D80 /* HSAppDelegate.m */,
+				0AF9594318D67C9B00B705EC /* Worker Classes */,
+				0AF8A80818D63691000A3D80 /* CoreData */,
+				0AF8A7DB18D6326F000A3D80 /* AppDelegate.h */,
+				0AF8A7DC18D6326F000A3D80 /* AppDelegate.m */,
 				0AF8A7DE18D6326F000A3D80 /* Main.storyboard */,
 				0AF8A7E418D63270000A3D80 /* HSMasterViewController.h */,
 				0AF8A7E518D63270000A3D80 /* HSMasterViewController.m */,
 				0AF8A7E718D63270000A3D80 /* HSDetailViewController.h */,
 				0AF8A7E818D63270000A3D80 /* HSDetailViewController.m */,
 				0AF8A7EA18D63270000A3D80 /* Images.xcassets */,
-				0AF8A7E118D63270000A3D80 /* HackerSpot.xcdatamodeld */,
 				0AF8A7D318D6326F000A3D80 /* Supporting Files */,
 			);
 			path = HackerSpot;
@@ -164,6 +353,65 @@
 				0AF8A7FB18D63270000A3D80 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0AF8A80818D63691000A3D80 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				0A5A773B1915A59600F3CCC4 /* Concurrency */,
+				0AB82F2E190E196A00537B12 /* Networking */,
+				0AF8A82E18D636FE000A3D80 /* Model Categories */,
+				0AF8A82D18D636F3000A3D80 /* Model Classes */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		0AF8A82D18D636F3000A3D80 /* Model Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0AF8A7E118D63270000A3D80 /* HackerSpot.xcdatamodeld */,
+				0A61EE3018D68C5700A0A044 /* Venue.h */,
+				0A61EE3118D68C5700A0A044 /* Venue.m */,
+				0A2DC7C918D63E210076C0A6 /* Contact.h */,
+				0A2DC7CA18D63E210076C0A6 /* Contact.m */,
+				0A2DC7C318D63E210076C0A6 /* Location.h */,
+				0A2DC7C418D63E210076C0A6 /* Location.m */,
+				0A2DC7C018D63E200076C0A6 /* Stats.h */,
+				0A2DC7C118D63E200076C0A6 /* Stats.m */,
+				0A2DC7BD18D639130076C0A6 /* NSManagedObject+HackerSpotResource.h */,
+				0A2DC7BE18D639130076C0A6 /* NSManagedObject+HackerSpotResource.m */,
+			);
+			name = "Model Classes";
+			sourceTree = "<group>";
+		};
+		0AF8A82E18D636FE000A3D80 /* Model Categories */ = {
+			isa = PBXGroup;
+			children = (
+				0AF8A83218D63745000A3D80 /* Venue+HackerSpotResource.h */,
+				0AF8A83318D63745000A3D80 /* Venue+HackerSpotResource.m */,
+				0AF8A83518D6375B000A3D80 /* Stats+HackerSpotResource.h */,
+				0AF8A83618D6375B000A3D80 /* Stats+HackerSpotResource.m */,
+				0AF8A83818D63767000A3D80 /* Contact+HackerSpotResource.h */,
+				0AF8A83918D63767000A3D80 /* Contact+HackerSpotResource.m */,
+				0A2DC7BA18D637890076C0A6 /* Location+HackerSpotResource.h */,
+				0A2DC7BB18D637890076C0A6 /* Location+HackerSpotResource.m */,
+			);
+			name = "Model Categories";
+			sourceTree = "<group>";
+		};
+		0AF9594318D67C9B00B705EC /* Worker Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0AF9594018D67C8E00B705EC /* HSVenueWorker.h */,
+				0AF9594118D67C8E00B705EC /* HSVenueWorker.m */,
+				0A61EE2718D67FC500A0A044 /* HSContactWorker.h */,
+				0A61EE2818D67FC500A0A044 /* HSContactWorker.m */,
+				0A61EE2A18D67FE000A0A044 /* HSLocationWorker.h */,
+				0A61EE2B18D67FE000A0A044 /* HSLocationWorker.m */,
+				0A61EE2D18D67FE900A0A044 /* HSStatsWorker.h */,
+				0A61EE2E18D67FE900A0A044 /* HSStatsWorker.m */,
+			);
+			name = "Worker Classes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,7 +459,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = HS;
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Kevin Coleman";
 				TargetAttributes = {
 					0AF8A7EF18D63270000A3D80 = {
@@ -265,10 +513,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AF8A7E318D63270000A3D80 /* HackerSpot.xcdatamodeld in Sources */,
+				0A5A77461915AF5000F3CCC4 /* HSStore.m in Sources */,
+				0A5A77431915A74200F3CCC4 /* HSFoursquareWorkerOperation.m in Sources */,
+				0AF8A83A18D63767000A3D80 /* Contact+HackerSpotResource.m in Sources */,
+				0AF9594218D67C8E00B705EC /* HSVenueWorker.m in Sources */,
+				0A5A774C1915BB2400F3CCC4 /* HSWorkerController.m in Sources */,
 				0AF8A7E918D63270000A3D80 /* HSDetailViewController.m in Sources */,
+				0A5A773E1915A64800F3CCC4 /* HSWorkerOperationQueue.m in Sources */,
+				0A2DC7BC18D637890076C0A6 /* Location+HackerSpotResource.m in Sources */,
+				0A61EE2F18D67FE900A0A044 /* HSStatsWorker.m in Sources */,
+				0A2DC7CB18D63E210076C0A6 /* Contact.m in Sources */,
+				0AF8A83418D63746000A3D80 /* Venue+HackerSpotResource.m in Sources */,
+				0A61EE3218D68C5700A0A044 /* Venue.m in Sources */,
+				0A5A77491915B5D900F3CCC4 /* HSWorkerOperation.m in Sources */,
 				0AF8A7E618D63270000A3D80 /* HSMasterViewController.m in Sources */,
+				0A2DC7C518D63E210076C0A6 /* Location.m in Sources */,
 				0AF8A7D918D6326F000A3D80 /* main.m in Sources */,
-				0AF8A7DD18D6326F000A3D80 /* HSAppDelegate.m in Sources */,
+				0A2DC7BF18D639130076C0A6 /* NSManagedObject+HackerSpotResource.m in Sources */,
+				0AF9593F18D67BEA00B705EC /* HSFoursquareController.m in Sources */,
+				0A61EE2918D67FC500A0A044 /* HSContactWorker.m in Sources */,
+				0A2DC7C218D63E200076C0A6 /* Stats.m in Sources */,
+				0AB82F2D190DFBE100537B12 /* HSParseController.m in Sources */,
+				0AF8A7DD18D6326F000A3D80 /* AppDelegate.m in Sources */,
+				0AF8A83718D6375B000A3D80 /* Stats+HackerSpotResource.m in Sources */,
+				0A61EE2C18D67FE000A0A044 /* HSLocationWorker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,7 +590,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -361,7 +628,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -395,6 +661,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HackerSpot/HackerSpot-Prefix.pch";
 				INFOPLIST_FILE = "HackerSpot/HackerSpot-Info.plist";
@@ -408,6 +678,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HackerSpot/HackerSpot-Prefix.pch";
 				INFOPLIST_FILE = "HackerSpot/HackerSpot-Info.plist";
@@ -419,7 +693,6 @@
 		0AF8A80618D63270000A3D80 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HackerSpot.app/HackerSpot";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -442,7 +715,6 @@
 		0AF8A80718D63270000A3D80 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HackerSpot.app/HackerSpot";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -477,6 +749,7 @@
 				0AF8A80418D63270000A3D80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0AF8A80518D63270000A3D80 /* Build configuration list for PBXNativeTarget "HackerSpotTests" */ = {
 			isa = XCConfigurationList;
@@ -485,6 +758,7 @@
 				0AF8A80718D63270000A3D80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
