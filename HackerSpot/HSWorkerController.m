@@ -9,7 +9,7 @@
 #import "HSWorkerController.h"
 #import "HSFoursquareWorkerOperation.h"
 #import "HSWorkerOperationQueue.h"
-
+#import "HSParseWorkerOperation.h"
 @implementation HSWorkerController
 
 + (HSWorkerOperationQueue *) workerOperationQueue
@@ -21,6 +21,14 @@
                                 completion:(HSWorkerCompletionBlock)completion
 {
     HSFoursquareWorkerOperation *op = [[HSFoursquareWorkerOperation alloc] initWithLocation:location];
+    if (completion) op.completionBlock = completion;
+    [[self workerOperationQueue] addOperation:op];
+}
+
++ (void) fetchParseDataWithVenues:(NSDictionary *)venues
+                       completion:(HSWorkerCompletionBlock)completion
+{
+    HSParseWorkerOperation *op = [[HSParseWorkerOperation alloc] initWithVenues:venues];
     if (completion) op.completionBlock = completion;
     [[self workerOperationQueue] addOperation:op];
 }

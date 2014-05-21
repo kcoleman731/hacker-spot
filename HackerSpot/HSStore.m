@@ -124,11 +124,11 @@
         return _privatePersistentStoreCoordinator;
     }
     
-    NSURL *storeURL = [[self applicationDocumentsDirectory] URLByAppendingPathComponent:@"GathrModel.sqlite"];
+    NSURL *storeURL = [[self applicationDocumentsDirectory] URLByAppendingPathComponent:@"HSModel.sqlite"];
     
     NSError *error = nil;
     _privatePersistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:[self managedObjectModel]];
-    NSAssert(_persistentStoreCoordinator, @"No PSC");
+    //NSAssert(_persistentStoreCoordinator, @"No PSC");
     NSDictionary *options = @{NSMigratePersistentStoresAutomaticallyOption : @YES,
                               NSInferMappingModelAutomaticallyOption : @YES};
     if (![_privatePersistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType

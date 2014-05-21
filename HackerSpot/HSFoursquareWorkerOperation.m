@@ -7,6 +7,7 @@
 //
 
 #import "HSFoursquareWorkerOperation.h"
+#import "HSWorkerController.h"
 
 @interface HSFoursquareWorkerOperation ()
 
@@ -48,12 +49,8 @@
     [NSURLConnection sendAsynchronousRequest:urlRequest
                                        queue:[NSOperationQueue mainQueue]
                            completionHandler:^(NSURLResponse* response, NSData* data, NSError* error) {
-                               
-                               if (error) {
-                                   NSLog(@"Error: %@", error);
-                                   
-                               } else {
-                                   NSDictionary *venues = [self deserializeVenueData:data];
+                               if (!error) {
+                                   [self fetchParseData:[self deserializeVenueData:data]];
                                }
                                [wSelf finish];
                            }];
@@ -67,5 +64,11 @@
     return [response objectForKey:@"venues"];
 }
 
+- (void) fetchParseData:(NSDictionary *)dictionary
+{
+    [HSWorkerController fetchParseDataWithVenues:dictionary completion:^{
+        NSLog (@"Foursqaure Fetch completed");
+    }];
+}
 
 @end

@@ -17,4 +17,6 @@ typedef void (^HSWorkerSyncBlock)(NSError *error);
 + (void) fetchFoursquareVenuesWithLocation:(CLLocationCoordinate2D)location
                                 completion:(HSWorkerCompletionBlock)completion;
 
++ (void) fetchParseDataWithVenues:(NSDictionary *)venues
+                       completion:(HSWorkerCompletionBlock)completion;
 @end

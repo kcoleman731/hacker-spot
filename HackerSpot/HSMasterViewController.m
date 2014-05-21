@@ -7,7 +7,6 @@
 //
 
 #import "HSMasterViewController.h"
-#import "HSDetailViewController.h"
 #import "HSFoursquareController.h"
 #import "HSVenueWorker.h"
 #import "HSParseController.h"
@@ -23,6 +22,7 @@
 @implementation HSMasterViewController
 
 #define kVenueEntity @"Venue"
+#define kCell   @"cell"
 
 - (void)viewDidLoad
 {
@@ -39,6 +39,7 @@
                                                                           sectionNameKeyPath:nil
                                                                                    cacheName:nil];
     self.fetchedResultsController.delegate = self;
+    
     NSError *error;
     if (![self.fetchedResultsController performFetch:&error]) {
         UIAlertView *alert = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"Error loading data", @"Error loading data")
@@ -48,6 +49,7 @@
                                               otherButtonTitles:nil];
         [alert show];
     }
+    [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:kCell];
 }
 
 - (void)didReceiveMemoryWarning
@@ -71,7 +73,7 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:kCell forIndexPath:indexPath];
     [self configureCell:cell atIndexPath:indexPath];
     return cell;
 }
@@ -102,15 +104,6 @@
 {
     // The table view should not be re-orderable.
     return NO;
-}
-
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    if ([[segue identifier] isEqualToString:@"showDetail"]) {
-        NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-        NSManagedObject *object = [[self fetchedResultsController] objectAtIndexPath:indexPath];
-        [[segue destinationViewController] setDetailItem:object];
-    }
 }
 
 #pragma mark - Fetched results controller
@@ -240,11 +233,5 @@
     }
 }
 
-- (void) createParseObjectWithVenues:(NSDictionary *)venues
-{
-    for (NSDictionary *venue in venues) {
-        //[HSParseController registerObject:[venue objectForKey:@"id"] withType:HHObjectTypeVenue];
-    }
-}
 
 @end

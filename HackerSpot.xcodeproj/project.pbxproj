@@ -31,6 +31,7 @@
 		0AB82F27190DFB8F00537B12 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB82F26190DFB8E00537B12 /* StoreKit.framework */; };
 		0AB82F29190DFB9A00537B12 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB82F28190DFB9A00537B12 /* SystemConfiguration.framework */; };
 		0AB82F2D190DFBE100537B12 /* HSParseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB82F2C190DFBE100537B12 /* HSParseController.m */; };
+		0ADBAA5B191723880068EBC6 /* HSParseWorkerOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ADBAA5A191723880068EBC6 /* HSParseWorkerOperation.m */; };
 		0AF8A7CB18D6326F000A3D80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AF8A7CA18D6326F000A3D80 /* Foundation.framework */; };
 		0AF8A7CD18D6326F000A3D80 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AF8A7CC18D6326F000A3D80 /* CoreGraphics.framework */; };
 		0AF8A7CF18D6326F000A3D80 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AF8A7CE18D6326F000A3D80 /* UIKit.framework */; };
@@ -41,7 +42,6 @@
 		0AF8A7E018D6326F000A3D80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AF8A7DE18D6326F000A3D80 /* Main.storyboard */; };
 		0AF8A7E318D63270000A3D80 /* HackerSpot.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0AF8A7E118D63270000A3D80 /* HackerSpot.xcdatamodeld */; };
 		0AF8A7E618D63270000A3D80 /* HSMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF8A7E518D63270000A3D80 /* HSMasterViewController.m */; };
-		0AF8A7E918D63270000A3D80 /* HSDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF8A7E818D63270000A3D80 /* HSDetailViewController.m */; };
 		0AF8A7EB18D63270000A3D80 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AF8A7EA18D63270000A3D80 /* Images.xcassets */; };
 		0AF8A7F218D63270000A3D80 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AF8A7F118D63270000A3D80 /* XCTest.framework */; };
 		0AF8A7F318D63270000A3D80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AF8A7CA18D6326F000A3D80 /* Foundation.framework */; };
@@ -108,6 +108,8 @@
 		0AB82F28190DFB9A00537B12 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		0AB82F2B190DFBE100537B12 /* HSParseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSParseController.h; sourceTree = "<group>"; };
 		0AB82F2C190DFBE100537B12 /* HSParseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSParseController.m; sourceTree = "<group>"; };
+		0ADBAA59191723880068EBC6 /* HSParseWorkerOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSParseWorkerOperation.h; sourceTree = "<group>"; };
+		0ADBAA5A191723880068EBC6 /* HSParseWorkerOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSParseWorkerOperation.m; sourceTree = "<group>"; };
 		0AF8A7C718D6326F000A3D80 /* HackerSpot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackerSpot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AF8A7CA18D6326F000A3D80 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0AF8A7CC18D6326F000A3D80 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -123,8 +125,6 @@
 		0AF8A7E218D63270000A3D80 /* HackerSpot.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HackerSpot.xcdatamodel; sourceTree = "<group>"; };
 		0AF8A7E418D63270000A3D80 /* HSMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSMasterViewController.h; sourceTree = "<group>"; };
 		0AF8A7E518D63270000A3D80 /* HSMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSMasterViewController.m; sourceTree = "<group>"; };
-		0AF8A7E718D63270000A3D80 /* HSDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSDetailViewController.h; sourceTree = "<group>"; };
-		0AF8A7E818D63270000A3D80 /* HSDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSDetailViewController.m; sourceTree = "<group>"; };
 		0AF8A7EA18D63270000A3D80 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0AF8A7F018D63270000A3D80 /* HackerSpotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackerSpotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AF8A7F118D63270000A3D80 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -185,11 +185,10 @@
 		0A5A773B1915A59600F3CCC4 /* Concurrency */ = {
 			isa = PBXGroup;
 			children = (
+				0ADBAA5C1917246D0068EBC6 /* Store */,
 				0A5A774D1915C00F00F3CCC4 /* Controller */,
 				0A5A77401915A72D00F3CCC4 /* Operations */,
 				0A5A773F1915A71A00F3CCC4 /* Queues */,
-				0A5A77441915AF5000F3CCC4 /* HSStore.h */,
-				0A5A77451915AF5000F3CCC4 /* HSStore.m */,
 			);
 			name = Concurrency;
 			sourceTree = "<group>";
@@ -235,22 +234,25 @@
 			children = (
 				0A5A77411915A74200F3CCC4 /* HSFoursquareWorkerOperation.h */,
 				0A5A77421915A74200F3CCC4 /* HSFoursquareWorkerOperation.m */,
+				0ADBAA59191723880068EBC6 /* HSParseWorkerOperation.h */,
+				0ADBAA5A191723880068EBC6 /* HSParseWorkerOperation.m */,
 			);
 			name = Soldier;
 			sourceTree = "<group>";
 		};
-		0AB82F2A190DFBD100537B12 /* ParseController */ = {
+		0AB82F2A190DFBD100537B12 /* Parse */ = {
 			isa = PBXGroup;
 			children = (
 				0AB82F2B190DFBE100537B12 /* HSParseController.h */,
 				0AB82F2C190DFBE100537B12 /* HSParseController.m */,
 			);
-			name = ParseController;
+			name = Parse;
 			sourceTree = "<group>";
 		};
 		0AB82F2E190E196A00537B12 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				0AB82F2A190DFBD100537B12 /* Parse */,
 				0AB82F2F190E197500537B12 /* Foursquare */,
 			);
 			name = Networking;
@@ -259,11 +261,19 @@
 		0AB82F2F190E197500537B12 /* Foursquare */ = {
 			isa = PBXGroup;
 			children = (
-				0AB82F2A190DFBD100537B12 /* ParseController */,
 				0AF9593E18D67BEA00B705EC /* HSFoursquareController.m */,
 				0AF9593D18D67BEA00B705EC /* HSFoursquareController.h */,
 			);
 			name = Foursquare;
+			sourceTree = "<group>";
+		};
+		0ADBAA5C1917246D0068EBC6 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				0A5A77441915AF5000F3CCC4 /* HSStore.h */,
+				0A5A77451915AF5000F3CCC4 /* HSStore.m */,
+			);
+			name = Store;
 			sourceTree = "<group>";
 		};
 		0AF8A7BE18D6326F000A3D80 = {
@@ -311,15 +321,14 @@
 		0AF8A7D218D6326F000A3D80 /* HackerSpot */ = {
 			isa = PBXGroup;
 			children = (
-				0AF9594318D67C9B00B705EC /* Worker Classes */,
+				0A5A773B1915A59600F3CCC4 /* Concurrency */,
+				0AB82F2E190E196A00537B12 /* Networking */,
 				0AF8A80818D63691000A3D80 /* CoreData */,
 				0AF8A7DB18D6326F000A3D80 /* AppDelegate.h */,
 				0AF8A7DC18D6326F000A3D80 /* AppDelegate.m */,
 				0AF8A7DE18D6326F000A3D80 /* Main.storyboard */,
 				0AF8A7E418D63270000A3D80 /* HSMasterViewController.h */,
 				0AF8A7E518D63270000A3D80 /* HSMasterViewController.m */,
-				0AF8A7E718D63270000A3D80 /* HSDetailViewController.h */,
-				0AF8A7E818D63270000A3D80 /* HSDetailViewController.m */,
 				0AF8A7EA18D63270000A3D80 /* Images.xcassets */,
 				0AF8A7D318D6326F000A3D80 /* Supporting Files */,
 			);
@@ -358,15 +367,14 @@
 		0AF8A80818D63691000A3D80 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
-				0A5A773B1915A59600F3CCC4 /* Concurrency */,
-				0AB82F2E190E196A00537B12 /* Networking */,
-				0AF8A82E18D636FE000A3D80 /* Model Categories */,
-				0AF8A82D18D636F3000A3D80 /* Model Classes */,
+				0AF9594318D67C9B00B705EC /* Factories */,
+				0AF8A82E18D636FE000A3D80 /* Categories */,
+				0AF8A82D18D636F3000A3D80 /* Model  */,
 			);
 			name = CoreData;
 			sourceTree = "<group>";
 		};
-		0AF8A82D18D636F3000A3D80 /* Model Classes */ = {
+		0AF8A82D18D636F3000A3D80 /* Model  */ = {
 			isa = PBXGroup;
 			children = (
 				0AF8A7E118D63270000A3D80 /* HackerSpot.xcdatamodeld */,
@@ -381,10 +389,10 @@
 				0A2DC7BD18D639130076C0A6 /* NSManagedObject+HackerSpotResource.h */,
 				0A2DC7BE18D639130076C0A6 /* NSManagedObject+HackerSpotResource.m */,
 			);
-			name = "Model Classes";
+			name = "Model ";
 			sourceTree = "<group>";
 		};
-		0AF8A82E18D636FE000A3D80 /* Model Categories */ = {
+		0AF8A82E18D636FE000A3D80 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
 				0AF8A83218D63745000A3D80 /* Venue+HackerSpotResource.h */,
@@ -396,10 +404,10 @@
 				0A2DC7BA18D637890076C0A6 /* Location+HackerSpotResource.h */,
 				0A2DC7BB18D637890076C0A6 /* Location+HackerSpotResource.m */,
 			);
-			name = "Model Categories";
+			name = Categories;
 			sourceTree = "<group>";
 		};
-		0AF9594318D67C9B00B705EC /* Worker Classes */ = {
+		0AF9594318D67C9B00B705EC /* Factories */ = {
 			isa = PBXGroup;
 			children = (
 				0AF9594018D67C8E00B705EC /* HSVenueWorker.h */,
@@ -411,7 +419,7 @@
 				0A61EE2D18D67FE900A0A044 /* HSStatsWorker.h */,
 				0A61EE2E18D67FE900A0A044 /* HSStatsWorker.m */,
 			);
-			name = "Worker Classes";
+			name = Factories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -516,9 +524,9 @@
 				0A5A77461915AF5000F3CCC4 /* HSStore.m in Sources */,
 				0A5A77431915A74200F3CCC4 /* HSFoursquareWorkerOperation.m in Sources */,
 				0AF8A83A18D63767000A3D80 /* Contact+HackerSpotResource.m in Sources */,
+				0ADBAA5B191723880068EBC6 /* HSParseWorkerOperation.m in Sources */,
 				0AF9594218D67C8E00B705EC /* HSVenueWorker.m in Sources */,
 				0A5A774C1915BB2400F3CCC4 /* HSWorkerController.m in Sources */,
-				0AF8A7E918D63270000A3D80 /* HSDetailViewController.m in Sources */,
 				0A5A773E1915A64800F3CCC4 /* HSWorkerOperationQueue.m in Sources */,
 				0A2DC7BC18D637890076C0A6 /* Location+HackerSpotResource.m in Sources */,
 				0A61EE2F18D67FE900A0A044 /* HSStatsWorker.m in Sources */,

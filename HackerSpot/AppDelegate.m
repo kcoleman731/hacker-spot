@@ -7,13 +7,13 @@
 //
 
 #import "AppDelegate.h"
-#import "HSParseController.h"
 #import "HSFoursquareController.h"
 #import "HSMasterViewController.h"
 #import "HSWorkerController.h"
 
 @implementation AppDelegate
 
+@synthesize parseController = _parseController;
 @synthesize managedObjectContext = _managedObjectContext;
 @synthesize managedObjectModel = _managedObjectModel;
 @synthesize persistentStoreCoordinator = _persistentStoreCoordinator;
@@ -22,22 +22,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    self.parseController = [[HSParseController alloc] init];
+    [self fetchData];
     
-    double lat = 47.60f; //location.coordinate.latitude;
-    double lon = -122.33f; //location.coordinate.longitude;
+    HSMasterViewController *masterController = [[HSMasterViewController alloc] init];
+    masterController.managedObjectContext = self.persistentStore.mainManagedObjectContext;
     
-    CLLocationCoordinate2D coordinate =  CLLocationCoordinate2DMake(lat, lon);
-    [HSWorkerController fetchFoursquareVenuesWithLocation:coordinate completion:^{
-        NSLog(@"shit worked");
-    }];
-    
-    //[self fetchData];
-    UINavigationController *navigationController = (UINavigationController *)self.window.rootViewController;
-    HSMasterViewController *controller = (HSMasterViewController *)navigationController.topViewController;
-    controller.managedObjectContext = self.managedObjectContext;
-    
-    HSParseController *parseController = [[HSParseController alloc] init];
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:masterController];
+    [self.window setRootViewController:navController];
+    [self.window makeKeyAndVisible];
     
     return YES;
 }
@@ -163,13 +156,25 @@
     return [[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask] lastObject];
 }
 
+#pragma mark 
+#pragma mark Persistent Store Initialization
+
+- (HSStore *) persistentStore
+{
+    if (!_persistentStore) {
+        _persistentStore = [[HSStore alloc] init];
+    }
+    return _persistentStore;
+}
+
 - (void) fetchData
 {
-    [HSFoursquareController fetchFoursquareDataWthSuccess:^(NSDictionary *venues) {
-        HSParseController *parseController = [[HSParseController alloc] init];
-        [parseController fetchParseDataWithContext:self.managedObjectContext venues:venues success:^{
-            NSLog(@"All data loaded");
-        }];
+    double lat = 47.60f; //location.coordinate.latitude;
+    double lon = -122.33f; //location.coordinate.longitude;
+    
+    CLLocationCoordinate2D coordinate =  CLLocationCoordinate2DMake(lat, lon);
+    [HSWorkerController fetchFoursquareVenuesWithLocation:coordinate completion:^{
+        NSLog(@"shit worked");
     }];
 }
 

@@ -6,47 +6,17 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "HackerSpot/AppDelegate.m"
-            timestampString = "420855710.424526"
+            filePath = "Venue+HackerSpotResource.m"
+            timestampString = "420949000.103536"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "168"
-            endingLineNumber = "168"
-            landmarkName = "-fetchData"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "+initCoreDataInstanceWithIdnetifier:andContext:"
             landmarkType = "5">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[AppDelegate fetchData]"
-                  moduleName = "HackerSpot"
-                  urlString = "file:///Users/Kevin/Desktop/Development/iOS%20Development/HackerSpot/HackerSpot/AppDelegate.m"
-                  timestampString = "420855935.036296"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "168"
-                  endingLineNumber = "168"
-                  offsetFromSymbolStart = "41">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__24-[AppDelegate fetchData]_block_invoke"
-                  moduleName = "HackerSpot"
-                  urlString = "file:///Users/Kevin/Desktop/Development/iOS%20Development/HackerSpot/HackerSpot/AppDelegate.m"
-                  timestampString = "420855935.037754"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "168"
-                  endingLineNumber = "168"
-                  offsetFromSymbolStart = "36">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
